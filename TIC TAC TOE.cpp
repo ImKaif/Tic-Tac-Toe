@@ -195,7 +195,9 @@ int main()
     return 0;
 }
 
-
+// 1 for winner
+// 0 for game is drawn
+// -1 for game in progress
 int checkwin() {
     if (square[1] == square[2] && square[2] == square[3])
         return 1;
